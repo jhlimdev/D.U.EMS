@@ -1,0 +1,87 @@
+.App {
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .App.dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+
+  .dark-mode-toggle {
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    position: fixed;
+    top: -5px;
+    right: 10px;
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+  }
+
+
+  
+
+body {
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  body.dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+ 
+  /* Profile.css */
+
+  .profile-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Horizontally center */
+    justify-content: center; /* Vertically center */
+  }
+  
+  
+  .profile-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .profile-image {
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .profile-name {
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .toggle-dark-mode {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+  }
+  
+  .dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .profile-bio {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
